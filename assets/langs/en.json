@@ -1,0 +1,13 @@
+{
+  "time_ago": {
+    "just_now": "Just now",
+    "min_ago": "%s minute ago",
+    "mins_ago": "%s minutes ago",
+    "hour_ago": "%s hour ago",
+    "hours_ago": "%s hours ago",
+    "day_ago": "%s day ago",
+    "days_ago": "%s days ago",
+    "week_ago": "%s week ago",
+    "weeks_ago": "%s weeks ago"
+  }
+}
