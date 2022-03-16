@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base/features/splash/splash_screen.dart';
 
+import '../presentation/features/splash/splash_screen.dart';
 import 'base/routes.dart';
 
 class RouteName {

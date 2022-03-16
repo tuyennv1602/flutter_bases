@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 
-import '../../data_source/local_datasource/token_provider.dart';
+import '../../../data/data.dart';
 
 class AuthInterceptor extends Interceptor {
   final TokenProvider _tokenProvider;

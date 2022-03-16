@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
-import 'data/api/base/api_config.dart';
-import 'main.dart';
+import 'core_packages.dart';
+import 'application.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Sizes {
-  static const horizontalPadding = 15;
-  static const buttonHeight = 48;
+  static const double horizontalPadding = 15;
+  static const double buttonHeight = 48;
 }
 
 class TextStyles {

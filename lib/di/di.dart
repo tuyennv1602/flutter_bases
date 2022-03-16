@@ -1,7 +1,7 @@
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../data/data.dart';
+import '../core_packages.dart';
 import 'bloc_module.dart';
 import 'core_module.dart';
 import 'local_module.dart';

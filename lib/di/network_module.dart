@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 
-import '../data/data.dart';
+import '../core_packages.dart';
 
 Dio _buildDio(ApiConfig config, List<Interceptor> interceptors) {
   return Dio()

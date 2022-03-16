@@ -70,3 +70,22 @@ class AppTheme {
     return t;
   }
 }
+
+class ThemeModel extends ChangeNotifier {
+  static AppTheme get _defaultTheme => AppTheme.fromType(ThemeType.dark);
+
+  void notify([VoidCallback? action]) {
+    action?.call();
+    notifyListeners();
+  }
+
+  /// Settings
+  // Current Theme
+  AppTheme _theme = _defaultTheme;
+  AppTheme get theme => _theme;
+  set theme(AppTheme theme) => notify(() => _theme = theme);
+
+  void changeTheme(bool isDark) {
+    theme = AppTheme.fromType(isDark ? ThemeType.dark : ThemeType.light);
+  }
+}

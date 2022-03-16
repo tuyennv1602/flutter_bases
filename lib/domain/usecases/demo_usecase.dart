@@ -1,4 +1,4 @@
-import 'package:flutter_base/domain/reponsitories/demo_repository.dart';
+import '../domain.dart';
 
 class DemoUsecase {
   final DemoRepository _demoRepository;

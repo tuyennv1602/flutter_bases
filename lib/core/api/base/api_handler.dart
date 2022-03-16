@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 
-import '../../exceptions/exceptions.dart';
+import '../../core.dart';
 
 typedef ApiResponseToModelParser<T> = T Function(Map<String, dynamic> json);
 

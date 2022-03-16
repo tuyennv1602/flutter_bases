@@ -13,7 +13,7 @@ flutter packages pub run build_runner build --delete-conflicting-outputs
 - Dev:
 
 ```sh
-flutter run lib/main_dev.dart
+flutter run lib/main.dart
 ```
 
 - Uat:
