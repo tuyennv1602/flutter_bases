@@ -3,7 +3,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get_it/get_it.dart';
 import 'package:provider/provider.dart';
-import 'core/core.dart';
 import 'core_packages.dart';
 import 'di/di.dart';
 
@@ -59,6 +58,7 @@ class _AppBootstrapperState extends State<_AppBootstrapper> {
           AppLocalizations.delegate,
           GlobalMaterialLocalizations.delegate,
           GlobalWidgetsLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
         ],
         localeResolutionCallback: (locale, supportedLocales) {
           final _locale = supportedLocales.firstWhere(
