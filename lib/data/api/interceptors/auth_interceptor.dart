@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_base/data/local_datasource/token_provider.dart';
+import '../../data.dart';
 
 class AuthInterceptor extends Interceptor {
   final TokenProvider _tokenProvider;

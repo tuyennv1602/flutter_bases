@@ -6,7 +6,6 @@ import 'package:provider/provider.dart';
 import 'core_packages.dart';
 import 'data/api/base/api_config.dart';
 import 'di/di.dart';
-import 'localizations/app_localizations.dart';
 
 Future<void> runApplication(ApiConfig config) async {
   //Call this first to make sure we can make other system level calls safely
