@@ -4,7 +4,6 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 import 'core_packages.dart';
 import 'di/di.dart';
-import 'localizations/app_localizations.dart';
 
 Future<void> runApplication(ApiConfig config) async {
   //Call this first to make sure we can make other system level calls safely
@@ -57,6 +56,7 @@ class _AppBootstrapperState extends State<_AppBootstrapper> {
           AppLocalizations.delegate,
           GlobalMaterialLocalizations.delegate,
           GlobalWidgetsLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
         ],
         localeResolutionCallback: (locale, supportedLocales) {
           final _locale = supportedLocales.firstWhere(
