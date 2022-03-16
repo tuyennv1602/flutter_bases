@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Demo-Dev",
+      "request": "launch",
+      "type": "dart",
+      "args": []
+    },
+    {
+      "name": "Demo-Uat",
+      "request": "launch",
+      "type": "dart",
+      "args": ["--target", "./lib/main_uat.dart"]
+    }
+  ]
+}

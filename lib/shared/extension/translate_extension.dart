@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base/localizations/app_localizations.dart';
+
+import '../../core_packages.dart';
 
 extension TranslateExtension on String {
   String translate(BuildContext context) => AppLocalizations.of(context)?.translate(this) ?? this;
