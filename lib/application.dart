@@ -3,8 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get_it/get_it.dart';
 import 'package:provider/provider.dart';
+import 'core/core.dart';
 import 'core_packages.dart';
-import 'data/api/base/api_config.dart';
 import 'di/di.dart';
 
 Future<void> runApplication(ApiConfig config) async {

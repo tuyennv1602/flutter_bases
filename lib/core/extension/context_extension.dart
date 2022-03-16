@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base/shared/shared.dart';
+import '../core.dart';
 
 extension BuildContextExtension on BuildContext {
   void openDrawer() => Scaffold.of(this).openDrawer();
