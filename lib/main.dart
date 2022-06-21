@@ -27,7 +27,8 @@ class _AppBootstrapper extends StatefulWidget {
 }
 
 class _AppBootstrapperState extends State<_AppBootstrapper> {
-  late final AppRouteInformationParser _routeParser = AppRouteInformationParser();
+  late final AppRouteInformationParser _routeParser =
+      AppRouteInformationParser();
   late final AppNavigator _router;
 
   @override

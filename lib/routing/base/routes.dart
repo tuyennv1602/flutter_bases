@@ -7,3 +7,5 @@ import 'package:flutter/material.dart';
 part 'route_path.dart';
 
 part 'app_navigator.dart';
+
+part 'route_page.dart';
